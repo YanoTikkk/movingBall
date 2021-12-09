@@ -1,0 +1,232 @@
+Unity Editor version:    2021.2.5f1 (4ec9a5e799f5)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/dimayankovich/Desktop/Unity Project/movingBall/movingBall
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51069
+Successfully changed project path to: /Users/dimayankovich/Desktop/Unity Project/movingBall/movingBall
+/Users/dimayankovich/Desktop/Unity Project/movingBall/movingBall
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 123.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.5f1 (4ec9a5e799f5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dimayankovich/Desktop/Unity Project/movingBall/movingBall/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Forcing user selected device: Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000885 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 101.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.914 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1916ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1516ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (1097ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (688ms)
+				ProcessInitializeOnLoadMethodAttributes (238ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001933 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/dimayankovich/Desktop/Unity Project/movingBall/movingBall/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/dimayankovich/Desktop/Unity Project/movingBall/movingBall/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.379 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3381ms)
+		BeginReloadAssembly (412ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2654ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (1247ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.28 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.5 KB). Loaded Objects now: 3668.
+Memory consumption went from 283.0 MB to 282.9 MB.
+Total: 3.446250 ms (FindLiveObjects: 0.219834 ms CreateObjectMapping: 0.083791 ms MarkObjects: 3.030208 ms  DeleteObjects: 0.111666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152005.146260 seconds.
+  path: Assets/Scenes/Ground.mat
+  artifactKey: Guid(1d14954b73226458c8e650968aacec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ground.mat using Guid(1d14954b73226458c8e650968aacec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37a6764806bfdd3b1f02583bd6bfb3f') in 1.404624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.194858 seconds.
+  path: Assets/Grass001_1K_AmbientOcclusion.jpg
+  artifactKey: Guid(4c30181e9d5024a27b39b10aed3f40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass001_1K_AmbientOcclusion.jpg using Guid(4c30181e9d5024a27b39b10aed3f40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf48d90868b548415980cbea33c59a7') in 0.706591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Grass001_1K_Displacement.jpg
+  artifactKey: Guid(a8d4895ae9cc5442cb857183ad83026e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass001_1K_Displacement.jpg using Guid(a8d4895ae9cc5442cb857183ad83026e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfbef44e5b8f3759d26695160b793a6') in 0.016171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Grass001_1K_Roughness.jpg
+  artifactKey: Guid(b8c78fa12027747cbbaee727a7bf16fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass001_1K_Roughness.jpg using Guid(b8c78fa12027747cbbaee727a7bf16fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc02038571ab1fa80e5baad2505b26e') in 0.013187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.079959 seconds.
+  path: Assets/Grass001_1K_Color.jpg
+  artifactKey: Guid(1ae061f229eba4f78aa6d2b92773b483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass001_1K_Color.jpg using Guid(1ae061f229eba4f78aa6d2b92773b483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b580f40659cb776de7534481c74237') in 0.239348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.599995 seconds.
+  path: Assets/Grass001_1K_NormalGL.jpg
+  artifactKey: Guid(cd59f9013bace4f329efe0f400cad1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass001_1K_NormalGL.jpg using Guid(cd59f9013bace4f329efe0f400cad1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed8ee2aa8c0b2055655c42ead0d6c62') in 0.057177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 375.436962 seconds.
+  path: Assets/sofa_03_4k.fbx
+  artifactKey: Guid(8733e3a44730e4953902737abb85b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sofa_03_4k.fbx using Guid(8733e3a44730e4953902737abb85b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa177f6ab75c2ac4baa0453517dfd9b9') in 0.323254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.834905 seconds.
+  path: Assets/sofa_03_4k.fbx
+  artifactKey: Guid(8733e3a44730e4953902737abb85b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sofa_03_4k.fbx using Guid(8733e3a44730e4953902737abb85b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee4f133018e9e47a1db414356dc9ba0') in 0.079249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.337430 seconds.
+  path: Assets/sofa_03_diff_4k.jpg
+  artifactKey: Guid(c6f858bc496e540788401a1ee622a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sofa_03_diff_4k.jpg using Guid(c6f858bc496e540788401a1ee622a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9074e4021726ef50f7b22362ce8159d2') in 0.015340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.215490 seconds.
+  path: Assets/sofa_03_rough_4k.jpg
+  artifactKey: Guid(235d51e6ccc8644d3aecaf355b0103a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sofa_03_rough_4k.jpg using Guid(235d51e6ccc8644d3aecaf355b0103a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bf600064eeee40800ac71b2dbe239f') in 0.012914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 194.371535 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.003426 seconds 
