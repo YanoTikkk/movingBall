@@ -6,10 +6,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private float speedRotation;
+    [SerializeField] private float jumpForce;
     [SerializeField] private Transform cameraCenter;
     
     private Rigidbody playerRigidbody;
     private CoinsManager coinsManager;
+    private bool grounded;
     
     private void Start()
     {
@@ -27,7 +29,10 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            playerRigidbody.AddForce(Vector3.up,ForceMode.Impulse);
+            if (grounded)
+            {
+                playerRigidbody.AddForce(0f, jumpForce, 0f,ForceMode.VelocityChange);
+            }
         }
     }
 
@@ -43,5 +48,15 @@ public class Player : MonoBehaviour
         {
             coinsManager.ColectCoins(other.GetComponent<Coin>());
         }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        grounded = true;
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+        grounded = false;
     }
 }
