@@ -44,7 +44,7 @@ public class CoinsManager : MonoBehaviour
         for (int i = 0; i < coins.Count; i++)
         {
             distanceToCoin = Vector3.Distance(arrow, coins[i].transform.position);
-            if (distanceToCoin > minDistance)
+            if (distanceToCoin < minDistance)
             {
                 minDistance = distanceToCoin;
                 closesCoin = coins[i];
